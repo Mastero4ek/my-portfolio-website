@@ -1,0 +1,16 @@
+.footer__tel {
+	display: flex;
+	align-items: center;
+}
+
+@media (min-width: 48em) {
+	.footer__tel:hover {
+		text-decoration: underline;
+	}
+}
+
+@media (max-width: 48em) {
+	.footer__tel {
+		margin-bottom: 2rem;
+	}
+}

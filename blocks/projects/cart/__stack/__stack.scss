@@ -1,0 +1,19 @@
+.cart__stack {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 48em) {
+	.cart__stack {
+		justify-content: center;
+		max-height: 13.6rem;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		text-align: center;
+	}
+
+	.cart__stack::-webkit-scrollbar {
+    	width: 0;
+    	height: 0;
+	}
+}

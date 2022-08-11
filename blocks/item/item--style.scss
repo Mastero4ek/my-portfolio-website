@@ -1,0 +1,12 @@
+.item--style {
+	background-color: #FFFFFF;
+	border: .1rem solid #DD9C3C;
+	border-radius: .4rem;
+}
+
+@media (max-width: 48em) {
+	.item--style {
+		border: .3rem solid #DD9C3C;
+		border-radius: 1rem;
+	}
+}

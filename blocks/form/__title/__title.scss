@@ -1,0 +1,13 @@
+.form__title {
+	@include font (700, 3.2rem, 125%);
+	letter-spacing: -.03em;
+	margin-bottom: 2.4rem;
+}
+
+@media (max-width: 48em) {
+	.form__title {
+		font-size: 6rem;
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+}

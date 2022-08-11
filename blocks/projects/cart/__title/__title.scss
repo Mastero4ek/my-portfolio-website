@@ -1,0 +1,17 @@
+.cart__title {
+	@include font (700, 2.4rem, 135%);
+	letter-spacing: -.02em;
+	margin-bottom: .6rem;
+}
+
+@media (max-width: 48em) {
+	.cart__title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		font-size: 2.8rem;
+		margin-bottom: 1rem;
+	}
+}

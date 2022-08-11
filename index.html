@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="">
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/script.js"></script>
+
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<div class="header header--color" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="#" class="header__logo-img logo">
+						<img src="img/header/logo.svg" alt="#">
+					</a>
+				</div>
+
+				<nav class="header__navigation header__navigation--color">
+					<ul class="header__nav">
+						<li class="header__item header__item--active">
+							<a href="#header" class="header__link header__link--color">Главная</a>
+						</li>
+						<li class="header__item">
+							<a href="#projects" class="header__link header__link--color">Проекты</a>
+						</li>
+						<li class="header__item">
+							<a href="#about-me" class="header__link header__link--color">Обо мне</a>
+						</li>
+						<li class="header__item">
+							<a href="#form" class="header__link header__link--color">Связаться</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="header__burger-mobile header__burger-mobile--style">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="main">
+		<section class="hero">
+			<div class="container">
+				<div class="hero__wrapper">
+					<div class="hero__img">
+						<img src="img/hero/avatar.jpg" alt="#">
+					</div>
+
+					<div class="hero__description">
+						<h1 class="hero__title">Привет!</h1>
+
+						<p class="hero__text hero__text--color">
+							<span>Я фронтенд-разработчик и веб-дизайнер</span>
+							<span>Меня зовут Артем Исламов и я делаю сайты для людей и компаний</span>
+						</p>
+
+						<div class="hero__contacts">
+							<ul class="hero__icons">
+								<li class="hero__icon">
+									<a href="https://github.com/Mastero4ek" target="blank" class="hero__link">
+										<svg class="hero__link-img icon">
+  											<use xlink:href="img/icons.svg#github"></use>
+										</svg>
+									</a>
+								</li>
+
+								<li class="hero__icon">
+									<a href="#" target="blank" class="hero__link">
+										<svg class="hero__link-img icon">
+  											<use xlink:href="img/icons.svg#instagram"></use>
+										</svg>
+									</a>
+								</li>
+
+								<li class="hero__icon">
+									<a href="#" target="blank" class="hero__link">
+										<svg class="hero__link-img icon">
+  											<use xlink:href="img/icons.svg#telegram"></use>
+										</svg>
+									</a>
+								</li>
+
+								<li class="hero__icon">
+									<a href="https://vk.com/mstrok" target="blank" class="hero__link">
+										<svg class="hero__link-img icon">
+  											<use xlink:href="img/icons.svg#vk"></use>
+										</svg>
+									</a>
+								</li>
+
+								<li class="hero__icon">
+									<a href="https://discord.gg/jxw8Sxa9" target="blank" class="hero__link">
+										<svg class="hero__link-img icon">
+  											<use xlink:href="img/icons.svg#discord"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+
+							<div class="hero__button-link">
+								<a href="resume.xlsx" target="blank" class="button button--style button--border hero__button">
+									<svg class="button-img icon">
+  										<use xlink:href="img/icons.svg#clip"></use>
+									</svg>
+
+									<span class="button-text">Скачать резюме</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects" id="projects">
+			<div class="container">
+				<h2 class="projects__title title title--color">Последние проекты</h2>
+
+				<div class="projects__wrapper">
+					<div class="projects__cart cart cart--big cart--style">
+						<a href="https://mastero4ek.github.io/cripto-change-test/" target="blank" class="cart__img">
+							<img src="img/projects/cripto-change.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">CriptoChange</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/cripto-change-test" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>									
+								</div>
+
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>
+
+					<div class="projects__cart cart cart--style">
+						<a href="https://mastero4ek.github.io/samurai-chair/" target="blank" class="cart__img">
+							<img src="img/projects/samurai-chair.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">Samurai-chair</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">SwiperBundle</li>
+								<li class="cart__item item item--style">PHP</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/samurai-chair" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>					
+
+					<div class="projects__cart cart cart--style">
+						<a href="https://mastero4ek.github.io/insurance-company/" target="blank" class="cart__img">
+							<img src="img/projects/insurance-company.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">Insurance Company</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">SwiperBundle</li>
+								<li class="cart__item item item--style">PHP</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/insurance-company" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+								
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>	
+							</div>						
+						</div>
+					</div>
+
+					<div class="projects__cart cart cart--style">
+						<a href="https://mastero4ek.github.io/best-tour/" target="blank" class="cart__img">
+							<img src="img/projects/best-tour.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">Best-tour</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">SwiperBundle</li>
+								<li class="cart__item item item--style">PHP</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/best-tour" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+								
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>					
+
+					<div class="projects__cart cart cart--style">
+						<a href="https://mastero4ek.github.io/eva-rugs/" target="blank" class="cart__img">
+							<img src="img/projects/eva-rugs.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">EvaRugs</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">SwiperBundle</li>
+								<li class="cart__item item item--style">PHP</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/eva-rugs" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+								
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>
+
+					<div class="projects__cart cart cart--style">
+						<a href="https://mastero4ek.github.io/youtube-concept/" target="blank" class="cart__img">
+							<img src="img/projects/youtube-concept.png" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">YouTube-concept</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">SwiperBundle</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="https://github.com/Mastero4ek/youtube-concept" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+								
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>
+
+					<div class="projects__cart cart cart--style">
+						<a href="" target="blank" class="cart__img">
+							<img src="" alt="#">
+						</a>
+
+						<div class="cart__description">
+							<h3 class="cart__title title title--color">MyPortfolio</h3>
+
+							<ul class="cart__stack">
+								<li class="cart__item item item--style">HTML</li>
+								<li class="cart__item item item--style">CSS</li>
+								<li class="cart__item item item--style">SCSS</li>
+								<li class="cart__item item item--style">Sass</li>
+								<li class="cart__item item item--style">Gulp</li>
+								<li class="cart__item item item--style">JavaScript</li>
+								<li class="cart__item item item--style">Php</li>
+								<li class="cart__item item item--style">БЭМ</li>
+							</ul>
+
+							<p class="cart__subscription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="cart__buttons">
+								<div class="cart__button-link">
+									<a href="#" target="blank" id="code" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#quotes"></use>
+										</svg>
+
+										<span class="button-text">Код</span>
+									</a>
+								</div>
+								
+								<div class="cart__button-link">
+									<a href="#projects" id="demo" class="cart__button button button--style button--border">
+										<svg class="button-img icon">
+  											<use xlink:href="img/icons.svg#check"></use>
+										</svg>
+
+										<span class="button-text">Демо</span>
+									</a>
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-me" id="about-me">
+			<div class="container">
+				<div class="about-me__wrapper">
+					<div class="about-me__img">
+						<img src="img/hero/avatar.jpg" alt="#">
+					</div>
+
+					<div class="about-me__description">
+						<h4 class="about-me__title title title--color">Я Артем Исламов</h4>
+
+						<p class="about-me__subscription">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</p>
+
+						<strong>Код, Дизайн, Обучение</strong>
+
+						<span>Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</span>
+					</div>
+				</div>
+
+				<div class="about-me__stack-title">Работаю с разными языками и инструментами</div>
+
+				<ul class="about-me__stack">
+					<li class="item about-me__item item--style">HTML</li>
+					<li class="item about-me__item item--style">CSS</li>
+					<li class="item about-me__item item--style">SASS</li>
+					<li class="item about-me__item item--style">JavaScript</li>
+					<li class="item about-me__item item--style">npm</li>
+					<li class="item about-me__item item--style">SCSS</li>
+					<li class="item about-me__item item--style">PHP</li>
+					<li class="item about-me__item item--style">Gulp</li>
+					<li class="item about-me__item item--style">БЭМ</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="form" id="form">
+			<h5 class="form__title">Готов обсудить проект...</h5>
+
+			<form action="#" method="POST" class="form__elements">
+				<div class="form__item">
+					<label for="name" class="form__label form__label--style">
+						<input type="text" id="name" name="user-name" class="form__input form__input--style" placeholder="Иван Иванович">
+					</label>
+
+					<label for="email" class="form__label form__label--style">
+						<input type="email" id="email" name="user-email" class="form__input form__input--style" placeholder="ivan_ivanovich@mail.ru">
+					</label>
+
+					<label for="message" class="form__label form__label--style">
+						<textarea id="message" name="user-message" class="form__input form__input--style" placeholder="Здравствуйте, хочу у Вас заказать проект..."></textarea>
+					</label>
+				</div>
+
+				<button type="submit" class="button button--style button--border form__button">
+					<svg class="button-img icon">
+  						<use xlink:href="img/icons.svg#mail"></use>
+					</svg>
+
+					<span class="button-text">Отправить</span>
+				</button>	
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer footer--color">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__logo">
+					<a href="#" class="footer__logo-img logo">
+						<img src="img/header/logo.svg" alt="#">
+					</a>
+				</div>
+
+				<div class="footer__navigation">
+					<ul class="footer__nav">
+						<li class="footer__item footer__item--active">
+							<a href="#header" class="footer__link footer__link--color">Главная</a>
+						</li>
+						<li class="footer__item">
+							<a href="#projects" class="footer__link footer__link--color">Проекты</a>
+						</li>
+						<li class="footer__item">
+							<a href="#about-me" class="footer__link footer__link--color">Обо мне</a>
+						</li>
+						<li class="footer__item">
+							<a href="#form" class="footer__link footer__link--color">Связаться</a>
+						</li>						
+					</ul>
+				</div>
+
+				<ul class="footer__contacts">
+					<li class="footer__contact">
+						<a href="tel:+79789334170" class="footer__tel footer__tel--color">
+							<svg class="footer__contact-img icon">
+  								<use xlink:href="img/icons.svg#tel"></use>
+							</svg>
+
+							<span>+7(978)-933-41-70</span>
+						</a>
+					</li>
+
+					<li class="footer__contact">
+						<a href="mailto:slavachirkov92@gmail.com" class="footer__mail footer__mail--color">
+							<svg class="footer__contact-img icon">
+  								<use xlink:href="img/icons.svg#email"></use>
+							</svg>
+
+							<span>slavachirkov92@gmail.com</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

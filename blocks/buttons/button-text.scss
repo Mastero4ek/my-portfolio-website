@@ -1,0 +1,9 @@
+.button-text {
+	@include font (700, 1.6rem, 150%);
+}
+
+@media (max-width: 48em) {
+	.button-text {
+		font-size: 2rem;
+	}
+}

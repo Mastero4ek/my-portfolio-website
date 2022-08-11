@@ -1,0 +1,17 @@
+.cart--style {
+	background-color: #cdbea6;
+	border-radius: .8rem;
+	overflow: hidden;
+}
+
+@media (min-width: 48em) {
+	.cart--style:hover {
+		box-shadow: 0 2rem 5rem -.5rem rgba(0, 0, 0, 0.4);
+	}
+}
+
+@media (max-width: 48em) {
+	.cart--style {
+		border-radius: 1.6rem;
+	}
+}

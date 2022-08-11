@@ -1,0 +1,9 @@
+.cart__button-link:nth-child(1) {
+	margin-right: 2.5rem;
+}
+
+@media (max-width: 48em) {
+	.cart__button-link:nth-child(1) {
+		margin-right: 2rem;
+	}
+}

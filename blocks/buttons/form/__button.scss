@@ -1,0 +1,15 @@
+@media (max-width: 48em) {
+	.form__button {
+		padding: 1.4rem;
+	}
+
+	.form__button > .button-text {
+		font-size: 3rem;
+	}
+
+	.form__button > .button-img {
+		width: 4.8rem;
+		height: 4.8rem;
+		margin-right: 2rem;
+	}
+}

@@ -1,0 +1,15 @@
+.hero__text {
+	@include font (700, 2.4rem, 135%);
+	letter-spacing: -.02em;
+	margin-bottom: 2.4rem;
+	max-width: 51rem;
+}
+
+@media (max-width: 48em) {
+	.hero__text {
+		font-size: 3.2rem;
+		margin-bottom: 3rem;
+		max-width: 100%;
+		text-align: center;
+	}
+}

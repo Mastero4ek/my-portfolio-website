@@ -1,0 +1,12 @@
+.about-me__title {
+	@include font (700, 3.2rem, 125%);
+	letter-spacing: -.03em;
+	margin-bottom: 1.6rem;
+}
+
+@media (max-width: 48em) {
+	.about-me__title {
+		font-size: 5rem;
+		margin-bottom: 2rem;
+	}
+}

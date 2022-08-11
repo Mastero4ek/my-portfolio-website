@@ -1,0 +1,14 @@
+.footer__nav {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 25rem;
+}
+
+@media (max-width: 48em) {
+	.footer__nav {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		max-width: 100%;
+		align-items: center;
+	}
+}

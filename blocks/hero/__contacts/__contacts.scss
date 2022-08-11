@@ -1,0 +1,12 @@
+.hero__contacts {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 48em) {
+	.hero__contacts {
+		width: 100%;
+		flex-direction: column;
+	}
+}

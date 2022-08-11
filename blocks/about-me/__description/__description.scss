@@ -1,0 +1,33 @@
+.about-me__description {
+	padding: 6.4rem 0 5.6rem 5.6rem;
+	max-width: 51rem;
+}
+
+.about-me__description > strong {
+	display: block;
+	@include font (400, 2.4rem, 150%);
+	margin-bottom: 1.6rem;
+	color: #DD9C3C;
+}
+
+.about-me__description > span {
+	display: block;
+	@include font (400, 1.6rem, 150%);
+}
+
+@media (max-width: 48em) {
+	.about-me__description {
+		max-width: 100%;
+		padding: 5rem 0 5rem 0;
+		text-align: center;
+	}
+
+	.about-me__description > strong {
+		font-size: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.about-me__description > span {
+		font-size: 2.5rem;
+	}
+}

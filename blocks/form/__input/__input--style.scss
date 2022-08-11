@@ -1,0 +1,23 @@
+.form__input--style {
+	color: #83807C;
+	background-color: #E5E5E5;
+	border: .3rem solid #E0DEDC;
+	border-radius: .4rem;
+}
+
+.form__input--style:focus {
+	color: #60786B;
+	background-color: #E5E5E5;
+	border: .3rem solid #BF7506;
+}
+
+@media (max-width: 48em) {
+	.form__input--style {
+		border: .6rem solid #E0DEDC;
+		border-radius: 1rem;
+	}
+
+	.form__input--style:focus {
+		border: .6rem solid #BF7506;
+	}
+}

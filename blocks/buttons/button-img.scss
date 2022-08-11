@@ -1,0 +1,14 @@
+.button-img {
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-right: .4rem;
+	fill: #211B12;
+}
+
+@media (max-width: 48em) {
+	.button-img {
+		width: 3.5rem;
+		height: 3.5rem;
+		margin-right: 1rem;
+	}
+}

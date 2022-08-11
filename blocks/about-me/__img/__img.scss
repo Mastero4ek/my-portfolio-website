@@ -1,0 +1,17 @@
+.about-me__img {
+	width: 36rem;
+	height: 44rem;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.about-me__img > img {
+	object-fit: cover;
+}
+
+@media (max-width: 48em) {
+	.about-me__img {
+		width: 90%;
+		height: auto;
+	}
+}

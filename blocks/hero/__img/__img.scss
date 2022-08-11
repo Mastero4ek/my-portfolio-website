@@ -1,0 +1,21 @@
+.hero__img {
+	width: 21.2rem;
+	height: 24rem;
+	margin-right: 2.7rem;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.hero__img > img {
+	object-fit: cover;
+}
+
+@media (max-width: 48em) {
+	.hero__img {
+		width: 60%;
+		height: auto;
+		margin-right: 0;
+		margin-bottom: 3rem;
+		border-radius: 4rem;
+	}
+}

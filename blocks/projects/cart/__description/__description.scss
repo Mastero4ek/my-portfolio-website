@@ -1,0 +1,15 @@
+.cart__description {
+	height: 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.6rem;
+}
+
+@media (max-width: 48em) {
+	.cart__description {
+		height: 35rem;
+		width: 50%;
+		align-items: center;
+	}
+}

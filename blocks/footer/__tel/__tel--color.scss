@@ -1,0 +1,9 @@
+.footer__tel--color {
+	color: #BF7506;
+}
+
+@media(min-width: 48em) {
+	.footer__tel--color:hover > .footer__contact-img {
+		fill: #60786B;
+	}
+}

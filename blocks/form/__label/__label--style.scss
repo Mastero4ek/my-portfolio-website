@@ -1,0 +1,45 @@
+.form__label--style:before {
+	position: absolute;
+	z-index: 10;
+	background-color: #E5E5E5;
+	color: #83807C;
+	@include font (400, 1.6rem, 150%);
+	text-align: center;
+	left: 1rem;
+	top: -1rem;
+}
+
+.form__label--style:nth-child(1)::before {
+	content: 'Имя';
+	width: 6rem;
+}
+
+.form__label--style:nth-child(2)::before {
+	content: 'Email';
+	width: 7rem;
+}
+
+.form__label--style:nth-child(3)::before {
+	content: 'Сообщение';
+	width: 12rem;
+}
+
+@media (max-width: 48em) {
+	.form__label--style:before {
+		font-size: 2.6rem;
+		left: 2rem;
+		top: -2rem;
+	}
+
+	.form__label--style:nth-child(1)::before {
+		width: 8rem;
+	}
+
+	.form__label--style:nth-child(2)::before {
+		width: 9rem;
+	}
+
+	.form__label--style:nth-child(3)::before {
+		width: 17.5rem;
+	}
+}

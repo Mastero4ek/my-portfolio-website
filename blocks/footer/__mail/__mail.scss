@@ -1,0 +1,10 @@
+.footer__mail {
+	display: flex;
+	align-items: center;
+}
+
+@media (min-width: 48em) {
+	.footer__mail:hover {
+		text-decoration: underline;
+	}
+}

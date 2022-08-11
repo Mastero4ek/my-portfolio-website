@@ -1,0 +1,13 @@
+.about-me__stack-title {
+	@include font (700, 2.4rem, 135%);
+	letter-spacing: -.02em;
+	margin-bottom: 1.4rem;
+}
+
+@media (max-width: 48em) {
+	.about-me__stack-title {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+}

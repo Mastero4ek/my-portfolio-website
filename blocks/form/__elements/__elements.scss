@@ -1,0 +1,11 @@
+.form__elements {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+@media (max-width: 48em) {
+	.form__elements {
+		align-items: center;
+	}
+}

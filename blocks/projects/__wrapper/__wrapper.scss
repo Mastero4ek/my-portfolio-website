@@ -1,0 +1,12 @@
+.projects__wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 27rem);
+	gap: 3rem;
+}
+
+@media (max-width: 48em) {
+	.projects__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+}

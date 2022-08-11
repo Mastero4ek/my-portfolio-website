@@ -1,0 +1,12 @@
+.active {
+	display: flex;
+}
+
+.active__button {
+	display: block;
+}
+
+.noscroll {
+	overflow: hidden !important;
+	height: 100% !important;
+}

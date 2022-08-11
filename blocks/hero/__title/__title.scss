@@ -1,0 +1,11 @@
+.hero__title {
+	@include font (700, 4.8rem, 125%);
+	margin-bottom: .8rem;
+}
+
+@media (max-width: 48em) {
+	.hero__title {
+		font-size: 6rem;
+		margin-bottom: 2rem;
+	}
+}

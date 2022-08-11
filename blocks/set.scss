@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*::focus:not(:focus-visible) {
+  outline: none;
+}
+
+html {
+  //font-size: 10px
+  font-size: 0.78vw;
+  //font-size: (100/1280) * 10vw; // где 1280 это ширина деск макета
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: auto;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: auto;
+  margin: 0;
+  padding: 0;
+  color: #211B12;
+  background-color: #E5E5E5;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 48em) {
+  a:hover {
+    color: #60786B;
+  }
+}
+
+input,
+textarea {
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button,
+input,
+a,
+textarea {
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: inherit;
+}
+
+button {
+  border: none;
+  color: inherit;
+  font:inherit;
+  text-align: inherit;
+  padding: 0;
+  background-color: inherit;
+  text-rendering: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.container {
+  width: 87rem;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 48em) {
+  html {
+    //font-size: 5px
+    font-size: 1.5625vw;
+    //font-size: (100/320) * 5vw; // где 320 это ширина моб макета
+    -webkit-text-size-adjust: none;
+  }
+
+  .container {
+    padding: 0 3.2rem;
+    width: 100%;
+  }
+}

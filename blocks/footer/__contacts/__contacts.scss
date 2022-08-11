@@ -1,0 +1,13 @@
+.footer__contacts {
+	@include font (400, 2rem, 150%);
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+@media (max-width: 48em) {
+	.footer__contacts {
+		font-size: 3rem;
+		align-items: center;
+	}
+}

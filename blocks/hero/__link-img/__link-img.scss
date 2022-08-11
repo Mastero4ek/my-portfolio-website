@@ -1,0 +1,18 @@
+.hero__link-img {
+	width: 4rem;
+	height: 4rem;
+	fill: #bf7506;
+}
+
+@media (min-width: 48em) {
+	.hero__link-img:hover {
+		fill: #60786B;
+	}
+}
+
+@media (max-width: 48em) {
+	.hero__link-img {
+		width: 8rem;
+		height: 8rem;
+	}
+}

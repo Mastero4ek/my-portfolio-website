@@ -1,0 +1,18 @@
+.cart__img {
+	display: block;
+	width: 27rem;
+	height: 25rem;
+	cursor: zoom-in;
+}
+
+.cart__img > img {
+	object-fit: cover;
+	object-position: left top;
+}
+
+@media (max-width: 48em) {
+	.cart__img {
+		width: 50%;
+		height: 35rem;
+	}
+}

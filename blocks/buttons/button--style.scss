@@ -1,0 +1,13 @@
+.button--style {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: .8rem;
+	color: #211B12;
+}
+
+@media (min-width: 48em) {
+	.button--style:hover {
+		color: #60786B;
+	}
+}

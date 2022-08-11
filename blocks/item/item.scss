@@ -1,0 +1,19 @@
+.item {
+	@include font (400, 1.2rem, 150%);
+	padding: .5rem .8rem .4rem .8rem;
+}
+
+.item:not(:last-child) {
+	margin-right: .4rem;
+}
+
+@media (max-width: 48em) {
+	.item {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.item:not(:last-child) {
+		margin-right: 1rem;
+	}
+}

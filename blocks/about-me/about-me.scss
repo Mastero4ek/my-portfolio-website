@@ -1,0 +1,11 @@
+.about-me {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+@media (max-width: 48em) {
+	.about-me {
+		padding-top: 15rem;
+		padding-bottom: 0;
+	}
+}

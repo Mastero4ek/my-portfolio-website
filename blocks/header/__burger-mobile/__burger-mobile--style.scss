@@ -1,0 +1,11 @@
+@media (max-width: 48em) {
+	.header__burger-mobile--style {
+		background-color: #FFFFFF;
+		border-radius: 100%;
+		box-shadow: 0 .2rem 1.2rem rgba(0,0,0,.18);
+	}
+
+	.header__burger-mobile--style > span {
+		background-color: #BF7506;
+	}
+}

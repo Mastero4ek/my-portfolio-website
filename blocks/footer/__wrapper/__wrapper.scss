@@ -1,0 +1,15 @@
+.footer__wrapper {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 48em) {
+	.footer__wrapper {
+		flex-direction: column;
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+}
